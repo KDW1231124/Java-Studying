@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="java-oop-design-pattern/src/main/java"/>
+	<classpathentry kind="src" path="java-oop-design-pattern/src/test/java"/>
+	<classpathentry kind="src" path="java-simple-code/src/main/java"/>
+	<classpathentry kind="src" path="java-simple-code/src/test/java"/>
+	<classpathentry kind="src" path="java8-in-action/src/main/java"/>
+	<classpathentry kind="src" path="java8-in-action/src/test/java"/>
+	<classpathentry kind="src" path="jpa-n-plus-one-problem/src/main/java"/>
+	<classpathentry kind="src" path="jpa-n-plus-one-problem/src/test/java"/>
+	<classpathentry kind="src" path="spring-boot-mybatis-start/src/main/java"/>
+	<classpathentry kind="src" path="spring-boot-mybatis-start/src/test/java"/>
+	<classpathentry kind="src" path="spring-custom-validation/src/main/java"/>
+	<classpathentry kind="src" path="spring-custom-validation/src/test/java"/>
+	<classpathentry kind="lib" path="java-oop-design-pattern/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="java-simple-code/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="java8-in-action/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="jpa-n-plus-one-problem/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring-boot-mybatis-start/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring-custom-validation/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
