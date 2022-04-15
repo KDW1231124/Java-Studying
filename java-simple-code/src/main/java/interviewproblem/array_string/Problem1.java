@@ -9,43 +9,43 @@ import java.util.HashMap;
  */
 public class Problem1 {
 
-    /*
-     * 입력되는 문자열이 아스키코드 값만을 포함하고 있다면 128 개의 int 배열로 해결할 수 있다.
-     * (맵 사용안해도 됨)
-     * 시간 복잡도는 O(N)
-     */
-    public static boolean solve(String input) {
-        HashMap<Character, Integer> frequency = new HashMap<>();
+  /*
+   * 입력되는 문자열이 아스키코드 값만을 포함하고 있다면 128 개의 int 배열로 해결할 수 있다.
+   * (맵 사용안해도 됨)
+   * 시간 복잡도는 O(N)
+   */
+  public static boolean solve(String input) {
+    HashMap<Character, Integer> frequency = new HashMap<>();
 
-        for (int i = 0; i < input.length(); ++i) {
-            char currentChar = input.charAt(i);
-            if (frequency.containsKey(currentChar)) {
-                return false;
-            } else {
-                frequency.put(currentChar, 1);
-            }
-        }
-
-        return true;
+    for (int i = 0; i < input.length(); ++i) {
+      char currentChar = input.charAt(i);
+      if (frequency.containsKey(currentChar)) {
+        return false;
+      } else {
+        frequency.put(currentChar, 1);
+      }
     }
 
-    /*
-     * 시간 복잡도는 O(N^2)
-     */
-    public static boolean solveWithoutDataStructure(String input) {
-        int len = input.length();
-        for (int i = 0; i < len - 1; ++i) {
-            for (int j = i + 1; j < len; ++j) {
-                if (input.charAt(i) == input.charAt(j)) {
-                    return false;
-                }
-            }
-        }
+    return true;
+  }
 
-        return true;
+  /*
+   * 시간 복잡도는 O(N^2)
+   */
+  public static boolean solveWithoutDataStructure(String input) {
+    int len = input.length();
+    for (int i = 0; i < len - 1; ++i) {
+      for (int j = i + 1; j < len; ++j) {
+        if (input.charAt(i) == input.charAt(j)) {
+          return false;
+        }
+      }
     }
 
-    /*
-     * 입력된 문자열을 정렬할 수 있다면 정렬해서 비교하면 O(NlogN)으로 가능
-     */
+    return true;
+  }
+
+  /*
+   * 입력된 문자열을 정렬할 수 있다면 정렬해서 비교하면 O(NlogN)으로 가능
+   *///
 }

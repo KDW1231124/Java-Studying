@@ -5,13 +5,14 @@ package interviewproblem.tree_graph;
  * 존재하는지 확인하는 알고리즘을 작성하라.
  */
 public class Problem1 {
-   enum State { UnVisited, Visited, Visiting }
+  enum State { UnVisited, Visited, Visiting }
 
-   private class Graph {}
-   private class Node {}
+  private class Graph {}
+  private class Node {}
 
-   public static boolean solve(Graph g, Node start, Node end) {
-       // BFS OR DFS 사용
-       return false;
-   }
+  public static boolean solve(Graph g, Node start, Node end) {
+    // BFS OR DFS 사용
+    return false;
+  }
 }
+//

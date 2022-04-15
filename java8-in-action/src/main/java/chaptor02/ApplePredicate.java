@@ -1,5 +1,6 @@
 package chaptor02;
 
 public interface ApplePredicate {
-    boolean test(Apple apple);
+  boolean test(Apple apple);
 }
+//

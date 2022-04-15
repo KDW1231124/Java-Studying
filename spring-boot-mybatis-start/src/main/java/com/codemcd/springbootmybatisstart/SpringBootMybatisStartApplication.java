@@ -8,8 +8,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @MapperScan(basePackages = "com.codemcd.springbootmybatisstart")
 public class SpringBootMybatisStartApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(SpringBootMybatisStartApplication.class, args);
-    }
+  public static void main(String[] args) {
+    SpringApplication.run(SpringBootMybatisStartApplication.class, args);
+  }
 
 }
+//
